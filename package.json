@@ -6,7 +6,6 @@
   "module": "dist/esm/index.js",
   "scripts": {
     "rollup-build-lib": "rollup -c",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
@@ -50,5 +49,10 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^1.14.0"
+  }
 }
